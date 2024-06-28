@@ -33,3 +33,14 @@ The weights can be accessed by Google Drive, click the link to download.
 conda create -n elasticast
 pip install -r requirements.txt
 ```
+
+# Citation
+Please cite our paper(s) if you find this repository useful. 
+```
+@inproceedings{feng2024elasticast,
+  author={Feng, Jiu and Erol, Mehmet Hamza and Chung, Joon Son and Senocak, Arda},
+  title={ElasticAST: An Audio Spectrogram Transformer for All Length and Resolutions},
+  year=2024,
+  booktitle={Proc. Interspeech 2024},
+}
+```
