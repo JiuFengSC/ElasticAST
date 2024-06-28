@@ -6,7 +6,7 @@ This paper introduces an approach that enables the use of variable-length audio 
 
 
 <div align=center>
-<img width="450" alt="image" src="https://github.com/JiuFengSC/ElasticAST/assets/ElasticAST.png">
+<img width="300" alt="image" src="https://github.com/JiuFengSC/ElasticAST/blob/main/assets/ElasticAST.png?raw=true">
 </div>
 
 # Evaluation
