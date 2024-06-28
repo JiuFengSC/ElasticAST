@@ -1,0 +1,10 @@
+*.pth
+*.pyc
+*.DS_Store
+# *.json
+# *.csv
+*unbalanced.json
+*.wav
+!*sample.json
+!*sample.csv
+pretrained_models/hub/*
