@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 # Citation
-Please cite our paper(s) if you find this repository useful. 
+Please cite our paper if you find this repository useful. 
 ```
 @inproceedings{feng2024elasticast,
   author={Feng, Jiu and Erol, Mehmet Hamza and Chung, Joon Son and Senocak, Arda},
