@@ -9,7 +9,6 @@ import torch
 import torch.nn as nn
 from torch.cuda.amp import autocast
 import os
-import wget
 os.environ['TORCH_HOME'] = '../../pretrained_models'
 import timm
 from timm.models.layers import to_2tuple,trunc_normal_
@@ -36,7 +35,7 @@ def divisible_by(numer, denom):
 
 # override the timm package to relax the input shape constraint.
 class PatchEmbed(nn.Module):
-    def __init__(self, img_size=224, patch_size=16, in_chans=3, embed_dim=768,bias=True):
+    def __init__(self, img_size=224, patch_size=16, in_chans=3, embed_dim=768,bias=True,dynamic_img_pad=False):
         super().__init__()
 
         img_size = to_2tuple(img_size)

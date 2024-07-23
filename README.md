@@ -12,7 +12,8 @@ This paper introduces an approach that enables the use of variable-length audio 
 # Evaluation
 
 
-The evaluation code has been released (the jupyter notebooks in `./src/`), you can use the weights below to reproduce the results.
+The evaluation code has been released (the jupyter notebooks in `./src/evaluation_pipeline/`), you can use the weights below to reproduce the results.
+Please note that you might need to move those notebooks to the directory of `./src/` to avoid importing issues.
 
 The training code will be released soon.
 
