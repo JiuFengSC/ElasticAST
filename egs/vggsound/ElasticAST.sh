@@ -5,14 +5,14 @@ set=full
 bal=full
 lr=1e-5
 epoch=40
-tr_data=/home/jfeng/FJ/MixedHopAST/egs/vggsound/data/datafiles/vgg_final_train.json
+tr_data=./data/datafiles/vgg_final_train.json
 lrscheduler_start=10
 lrscheduler_step=1
 lrscheduler_decay=0.75
 wa_start=1
 wa_end=5
 
-te_data=/home/jfeng/FJ/MixedHopAST/egs/vggsound/data/datafiles/vgg_final_test.json
+te_data=./data/datafiles/vgg_final_test.json
 freqm=48
 timem=192
 mixup=0

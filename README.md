@@ -9,6 +9,16 @@ This paper introduces an approach that enables the use of variable-length audio 
 <img width="300" alt="image" src="https://github.com/JiuFengSC/ElasticAST/blob/main/assets/ElasticAST.png?raw=true">
 </div>
 
+# Training
+
+In this repo, we put the configuration bash files and the dataset json files inside the `./egs/` folder. Demos are made in each sub-folder. For more details, please refer the AST repo [this section](https://github.com/YuanGongND/ast#Audioset-Recipe).
+
+Execute this command to train the ElasticAST:
+```
+bash ElasticAST.sh
+```
+Please note that, for Epic-Sounds dataset, which has its own specific dataloader, we build another training pipeline for it (`train_ElasticAST-epic.py`).
+
 # Evaluation
 
 
